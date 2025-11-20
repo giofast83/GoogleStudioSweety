@@ -9,7 +9,7 @@ export const Collections: React.FC = () => {
 
   return (
     <div className="fade-in">
-      <div className="bg-brand-cream py-20 px-6 text-center">
+      <div className="bg-brand-cream px-6 text-center pt-28 md:pt-32 pb-20">
         <h1 className="font-serif text-5xl md:text-6xl text-brand-dark mb-4">Le Collezioni</h1>
         <p className="text-gray-600 max-w-2xl mx-auto font-light">
           Un viaggio attraverso tessuti pregiati, tagli innovativi e ispirazioni stagionali. Ogni collezione racconta una nuova storia di femminilità.
@@ -21,7 +21,7 @@ export const Collections: React.FC = () => {
           <article key={collection.id} className={`mb-32 flex flex-col ${index % 2 === 1 ? 'md:flex-row-reverse' : 'md:flex-row'} gap-12 items-start`}>
             
             {/* Visual Side */}
-            <div className="w-full md:w-1/2 sticky top-24">
+            <div className="w-full md:w-1/2 md:sticky md:top-24">
               <div className="relative aspect-[3/4] overflow-hidden mb-4">
                 <img 
                   src={collection.image} 
