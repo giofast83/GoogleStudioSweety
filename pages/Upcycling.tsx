@@ -32,6 +32,21 @@ export const Upcycling: React.FC = () => {
             <p className="text-gray-700 mb-8 leading-relaxed">
               Decostruiamo la forma originale per liberare il tessuto, poi lo ricomponiamo seguendo linee moderne e sartoriali.
             </p>
+            {/* Icone: Rigenera, Ridisegna, Riama */}
+            <div className="flex space-x-8 mb-8">
+              <div className="text-center">
+                <RefreshCw className="mx-auto mb-2 text-brand-dark" />
+                <span className="text-xs uppercase tracking-widest">Rigenera</span>
+              </div>
+              <div className="text-center">
+                <Scissors className="mx-auto mb-2 text-brand-dark" />
+                <span className="text-xs uppercase tracking-widest">Ridisegna</span>
+              </div>
+              <div className="text-center">
+                <Heart className="mx-auto mb-2 text-brand-dark" />
+                <span className="text-xs uppercase tracking-widest">Riama</span>
+              </div>
+            </div>
             <Link to="/contatti">
               <Button variant="primary">Hai un capo da trasformare?</Button>
             </Link>
