@@ -141,7 +141,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
               Creazioni uniche, sostenibili e su misura per valorizzare la tua unicità.
             </p>
             <div className="flex space-x-4 text-brand-dark">
-              <a href="#" className="hover:text-brand-gold transition-colors"><Instagram size={20} /></a>
+              <a href="https://www.instagram.com/sweetylab.roma/" className="hover:text-brand-gold transition-colors"><Instagram size={20} /></a>
               <a href="#" className="hover:text-brand-gold transition-colors"><Facebook size={20} /></a>
               <a href="mailto:info@sweetylab.it" className="hover:text-brand-gold transition-colors"><Mail size={20} /></a>
             </div>
@@ -168,18 +168,13 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
 
           <div className="col-span-1">
-            <h4 className="text-xs font-bold uppercase tracking-widest mb-6">Newsletter</h4>
-            <p className="text-sm text-gray-600 mb-4">Iscriviti per aggiornamenti sulle nuove capsule.</p>
-            <form className="flex flex-col space-y-2">
-              <input 
-                type="email" 
-                placeholder="La tua email" 
-                className="bg-brand-cream border border-gray-200 p-3 text-sm focus:outline-none focus:border-brand-gold"
-              />
-              <button className="bg-brand-dark text-white text-xs uppercase tracking-widest py-3 hover:bg-gray-800 transition-colors">
-                Iscriviti
-              </button>
-            </form>
+            <h4 className="text-xs font-bold uppercase tracking-widest mb-6">Prenota</h4>
+            <p className="text-sm text-gray-600 mb-4">Vuoi passare in atelier? <br></br>Prenota un appuntamento e raccontaci il tuo progetto.</p>
+            <Link to="/contatti" className="block">
+              <Button variant="primary" fullWidth className="!text-xs !font-light hover:bg-gray-800">
+                Prenota un appuntamento
+              </Button>
+            </Link>
           </div>
         </div>
         
