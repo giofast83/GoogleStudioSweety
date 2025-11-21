@@ -184,7 +184,7 @@ export const Upcycling: React.FC = () => {
       </section>
 
       {/* CTA Bottom */}
-      <section className="py-24 text-center px-6 bg-brand-powder">
+      <section className="py-24 text-center px-6 bg-brand-cream/95">
          <h2 className="font-serif text-3xl md:text-4xl mb-6">Dai valore ai tuoi ricordi</h2>
          <p className="text-gray-600 max-w-2xl mx-auto mb-8">
            Hai un abito della mamma, una camicia a cui sei legata o un tessuto vintage che adori? 
